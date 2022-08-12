@@ -1,0 +1,155 @@
+
+.skill-container {
+    height: auto;
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.skill-section-container {
+    display: flex;
+    justify-content: center;
+    min-height: 35rem;
+    height: auto;
+    width: 100%;
+    background-color: rgb(15, 21, 75);
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  .skill-section-header{
+    margin: auto;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .skill-header {
+    font-size: 40px;
+    color: rgb(48, 190, 143);
+  }
+  
+  .skill-card-container {
+    display: flex;
+    height: auto;
+    margin: auto;
+  }
+  
+  .skill-section {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(48, 190, 143);
+    width: 100%;
+    width: 100%;
+  }
+  
+  .skill-list {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin: auto 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skill-list-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 250px;
+  }
+  
+  .skill-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+  }
+  
+  
+  /* skillcard  */
+  
+  .skill-card-container {
+    height: 400px;
+    width: 350px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(16, 22, 80);
+    box-shadow: 0px 0px 8px 4px rgba(48, 190, 143, 0.245);
+
+    padding: 1px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border-top-left-radius: 80px 80px;
+    border-bottom-right-radius: 80px 80px;
+    transition: .7s;
+  }
+  
+  
+  .skill-card-container:hover {
+    box-shadow: 0px 0px 8px 10px rgba(44, 201, 149, 0.185);
+    transition: .7s;
+  }
+  
+  .skill-card {
+    height: auto;
+    width: 100%;
+  
+  }
+  
+  .skill-card-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: rgb(37, 233, 168);
+    font-size: 14px;
+  }
+  
+  /* Style each card by type */
+  
+  .frontend {
+    display: flex;
+    align-self: flex-start;
+  }
+  
+  #backend {
+    align-self: center;
+  }
+  
+  #tools {
+    align-self: flex-end;
+  }
+  
+  .skillName {
+    text-align: left;
+    margin: auto;
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .skillIcon {
+    margin: auto;
+    width: 70px;
+  }
+  
+  .skill-icon {
+    margin: auto;
+    height: 40px;
+  }
+
+  .line {
+    align-self: flex-end;
+    width: 130px;
+    height: 5px;
+    background-color: rgb(37, 233, 168);
+    border-radius: 10px;
+  }
+
+  .skill-card-header h1{
+    margin: 20px 0 7px 0;
+  }
+  
