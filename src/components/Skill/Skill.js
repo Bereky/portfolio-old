@@ -2,15 +2,13 @@ import SkillCard from "./SkillCard";
 import './skills.css'
 import Banner from '../Common/Banner';
 
-
-
 const Skill = () => {
 
         const backEndSkills =[
-            {name: "PHP", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968342.png"},
+            {name: "PHP", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968332.png"},
             {name: "MySQL", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968313.png"},
             {name: "NodeJs", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png"},
-
+            {name: "MongoDB", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"},
         ];
 
         const frontEndSkills = [

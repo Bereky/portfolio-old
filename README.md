@@ -1,3 +1,3 @@
 # My Portfolio
 
-## Check out the [SITE](https://bereky.github.io/portfolio)
+## Live demo of portfolio [Here](https://bereky.github.io/portfolio)
