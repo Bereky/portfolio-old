@@ -1,6 +1,5 @@
 import './nav.css'
 import brand from '../../asset/brande.svg';
-import '../../App.css';
 
 const NavBrand = () => {
     return ( 

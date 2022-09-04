@@ -1,5 +1,5 @@
 import { WindMillLoading, MeteorRainLoading} from 'react-loadingg';
-import '../../App.css'
+import '../../app/App.css'
 
 const Loading = () => {
     return ( 

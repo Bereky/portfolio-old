@@ -1,4 +1,4 @@
-import '../App.css'
+import '../../app/App.css'
 
 const Button = ({name, target}) => {
     return ( 
