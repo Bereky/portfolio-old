@@ -1,5 +1,5 @@
 import '../../App.css'
-import banner from "../../asset/s.svg"
+import banner from "../../asset/banner.svg"
 
 const Banner = ({name}) => {
     return ( 
