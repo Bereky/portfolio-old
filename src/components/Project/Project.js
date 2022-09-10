@@ -13,8 +13,6 @@ const Project = () => {
                 <Card projectHeader={"Github Find"} projectDescription={"Github profile search engine"} previewSite={"https://eclectic-hamster-b6841d.netlify.app"} sourceSite={"https://github.com/Bereky/Github-find"}/>
                 <Card projectHeader={"Chapa Payment"} projectDescription={"Chapa payment gateway implementation with Node and Express"} previewSite={false} sourceSite={"https://github.com/Bereky/chapa-payment-express"}/>
                 <Card projectHeader={"Express Bus"} projectDescription={"Passenger registration and ticket selling system"} previewSite={false} sourceSite={"https://github.com/Bereky/Express-bus"}/>
-                <Card projectHeader={"የአማርኛ ኪቦርድ"} projectDescription={"A browser based Amharic keyboard"} previewSite={"https://remarkable-dodol-8876e4.netlify.app/"} sourceSite={"https://github.com/Bereky/Amharic-keyboard"}/>
-
             </div>
         </div>
      );
