@@ -32,7 +32,7 @@
     margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 4px rgba(48, 190, 143, 0.245);
-    border-top-left-radius: 80px 80px;
+    /* border-top-left-radius: 80px 80px; */
     border-bottom-right-radius: 80px 80px;
     transition: .4s;
     cursor: default;
@@ -75,19 +75,19 @@
     width: 100%;
     color: rgba(37, 233, 168, 0.849);
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
   }
 
   .project-description-container {
+    display: flex;
+    align-items: flex-start;
     margin: auto;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+    width: 100%;
   }
   
   .project-description {
-    text-align: start;
+    font-size: 20px;
   }
   
   .card-options button {
