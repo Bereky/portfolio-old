@@ -75,7 +75,6 @@
     width: 100%;
     color: rgba(37, 233, 168, 0.849);
     display: flex;
-    justify-content: start;
     align-items: center;
   }
 
@@ -123,8 +122,4 @@
     justify-content: center;
     align-items: center;
     color: rgb(16, 22, 80);
-  }
-
-.sourceCode {
-    
   }
