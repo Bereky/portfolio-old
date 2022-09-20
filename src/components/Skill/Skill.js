@@ -8,7 +8,7 @@ const Skill = () => {
             {name: "PHP", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968332.png"},
             {name: "MySQL", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968313.png"},
             {name: "NodeJs", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png"},
-            {name: "MongoDB", icon: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"},
+            {name: "MongoDB", icon: "https://www.svgrepo.com/show/331488/mongodb.svg"},
         ];
 
         const frontEndSkills = [

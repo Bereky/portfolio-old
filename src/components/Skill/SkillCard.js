@@ -12,9 +12,7 @@ const SkillCard = ({skillHeader, skillType, skills}) => {
                 </div>
                 <div className="skill-list-section">
                     <div className="skill-list">
-                        {/* <SkillName skill={skills} /> */}
-                        {skills.map((item) => <SkillName /* skillName={item.name} */ skillIcon= {item.icon} />)}
-                        
+                        {skills.map((item) => <SkillName skillIcon= {item.icon} />)}
                     </div>
                 </div>
                 
