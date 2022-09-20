@@ -40,7 +40,13 @@ const Project = () => {
             {
                 stackAlt: "NodeJS",
                 stackIcon: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png"
+            },
+            {
+                stackAlt: "Express",
+                stackIcon: "https://user-images.githubusercontent.com/11978772/40430986-a0eb7b92-5e63-11e8-80eb-43fe07f664a6.png"
             }
+
+            
         ],
         express: [
             {
