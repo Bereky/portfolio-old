@@ -5,9 +5,9 @@ import Banner from '../Common/Banner';
 const Skill = () => {
 
         const backEndSkills =[
+            {name: "NodeJs", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png"},
             {name: "PHP", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968332.png"},
             {name: "MySQL", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968313.png"},
-            {name: "NodeJs", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png"},
             {name: "MongoDB", icon: "https://www.svgrepo.com/show/331488/mongodb.svg"},
         ];
 
