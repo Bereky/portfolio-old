@@ -37,18 +37,20 @@
   }
   
   .about-description-header {
+    font-size: 26px;
     color: rgb(37, 233, 168);
     align-self: center;
   
   }
   
   .about-description {
-    font-size: 19px;
+    font-size: 23px;
     margin: auto;
-    width: 80%;
-    height: 20%;
+    width: 85%;
+    height: 25%;
     color: rgba(48, 190, 143, 0.894);
     text-align:start;
+    
   }
   
   .strong-text {
