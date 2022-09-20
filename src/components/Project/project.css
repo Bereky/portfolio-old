@@ -88,9 +88,10 @@
   .project-name-header {
     /* height: 30px;
     width: 100%; */
-    color: rgba(37, 233, 168, 0.849);
     /* display: flex;
     align-items: center; */
+    color: rgb(37, 233, 168);
+    font-size: 28px;
   }
 
   
@@ -116,7 +117,7 @@
   }
 
   .stack-icon {
-    height: 40px;
+    height: 30px;
   }
 
   .project-description-container {
