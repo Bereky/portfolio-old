@@ -15,7 +15,7 @@ const About = () => {
                     <p className='about-description'> 
                     I am attending Computer Science degree at Jimma University. Currently, my focus is on 
                     building and testing user interfaces. I work on responsive design, accessiblity and 
-                    search engine optimization of web pages. I use React and React UI libraries on the front-end and
+                    search engine optimization of web pages. I use React and React UI libraries on the front-end,
                     Nodejs and Express to build API's. Also, I am familiar with different databse technologies like MySQL and MongoDB.
                     My Goal is to become a Full stack Blockchain Developer. I love to hear from you if you have projects that need creativity,
                     problem solving & programming skills.
