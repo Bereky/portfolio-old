@@ -4,13 +4,19 @@ import IconButton from '@mui/material/IconButton';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import CodeIcon from '@mui/icons-material/Code'; ;
 
-const Card = ({previewSite, projectHeader, projectDescription, projectPreview, sourceSite}) => {
+const Card = ({previewSite, projectHeader, projectDescription, projectStack, sourceSite}) => {
+    console.log(projectStack)
     return ( 
         <div className="project-card">
             <div className="card">
             <div className="top-line"></div>
                 <div className="card-description-container">
-                    <h2 className='project-name-header'>{projectHeader}</h2>
+                    <did className="project-name-container">
+                        <h1 className='project-name-header'>{projectHeader}</h1>
+                    </did>
+                    <div className="project-stack">
+                        {projectStack.map((stack) => <div className="project-stack-item"><img className="stack-icon" src={stack.stackIcon} alt={stack.stackAlt} /></div>)}
+                    </div>
                     <div className="project-description-container">
                         <p className='project-description'>{projectDescription}</p>
                     </div>

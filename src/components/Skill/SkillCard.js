@@ -8,13 +8,11 @@ const SkillCard = ({skillHeader, skillType, skills}) => {
             <div className="skill-card" >
                 <div className="skill-card-header">
                     <div className="line"></div>
-                    <h1>{skillHeader}</h1>
+                    <h1 className="skill-card-header-name">{skillHeader}</h1>
                 </div>
                 <div className="skill-list-section">
                     <div className="skill-list">
-                        {/* <SkillName skill={skills} /> */}
-                        {skills.map((item) => <SkillName /* skillName={item.name} */ skillIcon= {item.icon} />)}
-                        
+                        {skills.map((item) => <SkillName skillIcon= {item.icon} />)}
                     </div>
                 </div>
                 
