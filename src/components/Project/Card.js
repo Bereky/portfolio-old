@@ -10,7 +10,20 @@ const Card = ({previewSite, projectHeader, projectDescription, projectPreview, s
             <div className="card">
             <div className="top-line"></div>
                 <div className="card-description-container">
-                    <h2 className='project-name-header'>{projectHeader}</h2>
+                    <did className="project-name-container">
+                        <h2 className='project-name-header'>{projectHeader}</h2>
+                    </did>
+                    <div className="project-stack">
+                        <div className="project-stack-item">
+                            <img className="stack-icon" src='https://cdn-icons-png.flaticon.com/512/3334/3334886.png' alt=""/* {skillIcon} */ />
+                        </div>
+                        <div className="project-stack-item">
+                            <img className="stack-icon" src='https://cdn-icons-png.flaticon.com/512/5968/5968322.png' alt=""/* {skillIcon} */ />
+                        </div>
+                        <div className="project-stack-item">
+                            <img className="stack-icon" src='https://v4.mui.com/static/logo.png' alt=""/* {skillIcon} */ />
+                        </div>
+                    </div>
                     <div className="project-description-container">
                         <p className='project-description'>{projectDescription}</p>
                     </div>

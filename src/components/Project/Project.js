@@ -9,10 +9,10 @@ const Project = () => {
                 <Banner name="Projects"/>
             </div>
             <div className="project-cards-container">
-                <Card projectHeader={"Shema Marketplace"} projectDescription={"Ecommerce application to purchase fancy clothes"} previewSite={"https://timely-lokum-191a6b.netlify.app/"} sourceSite={"https://github.com/Bereky/mern-ecommerce"}/>
+                <Card projectHeader={"Shema Marketplace"} projectDescription={"Full-stack Ecommerce application"} previewSite={"https://timely-lokum-191a6b.netlify.app/"} sourceSite={"https://github.com/Bereky/mern-ecommerce"}/>
                 <Card projectHeader={"Github Find"} projectDescription={"Github profile search engine"} previewSite={"https://eclectic-hamster-b6841d.netlify.app"} sourceSite={"https://github.com/Bereky/Github-find"}/>
-                <Card projectHeader={"Chapa Payment"} projectDescription={"Chapa payment gateway implementation with Node and Express"} previewSite={false} sourceSite={"https://github.com/Bereky/chapa-payment-express"}/>
-                <Card projectHeader={"Express Bus"} projectDescription={"Passenger registration and ticket selling system"} previewSite={false} sourceSite={"https://github.com/Bereky/Express-bus"}/>
+                <Card projectHeader={"Chapa Payment"} projectDescription={"Payment gateway implementation boilerplate"} previewSite={false} sourceSite={"https://github.com/Bereky/chapa-payment-express"}/>
+                <Card projectHeader={"Express Bus"} projectDescription={"Passenger registration system"} previewSite={false} sourceSite={"https://github.com/Bereky/Express-bus"}/>
             </div>
         </div>
      );
