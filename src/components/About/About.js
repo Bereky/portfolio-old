@@ -11,15 +11,13 @@ const About = () => {
             </div>
             <div className="about-container">
                 <div className="about-description-container">
-                    <h2 className="about-description-header">Software developer, writer and UI/UX designer </h2>
-                    <p className='about-description'> 
-                    Currently, I am attending Computer Science degree at Jimma University. Besides, I'm focusing on 
-                    building and testing user interfaces. I work on responsive design, accessiblity and 
-                    search engine optimization of web pages. I use React and React UI libraries on the front-end.
-                    I build API's with Nodejs and Express. Also, I am familiar with different databse technologies like MySQL and MongoDB.
-                    I love to hear from you if you have projects that need creativity,
-                    problem solving & programming skills.
-                    </p>
+                    <h2 className="about-description-header">
+                        Well versed in HTML, CSS and Javascript, 
+                        I'm a Frontend developer who deeply cares about user experience. 
+                        I build responsive and interactive web applications that run across 
+                        different platforms. If you have projects that needs creativity and 
+                        programming skills let me know.
+                    </h2>
                 </div>
             </div>
         </div>
