@@ -26,7 +26,7 @@
   }
   
   .project-card {
-    height: 300px;
+    height: auto;
     width: 550px;
     background-color: rgb(16, 22, 80);
     margin-bottom: 30px;
@@ -46,7 +46,7 @@
   .project-card .card {
     display: flex;
     flex-direction: column;
-    height: 280px;
+    height: 270px;
   }
   
   .card-options {
