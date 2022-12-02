@@ -23,6 +23,17 @@ const Project = () => {
                 stackIcon: "https://www.svgrepo.com/show/331488/mongodb.svg"
             }
         ],
+        dashDonation: [
+            {
+                stackAlt: "React",
+                stackIcon: "https://cdn-icons-png.flaticon.com/512/3334/3334886.png"
+            },
+            
+            {
+                stackAlt: "Tailwind",
+                stackIcon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+            },
+        ],
         decentral: [
             {
                 stackAlt: "React",
@@ -100,6 +111,7 @@ const Project = () => {
             </div>
             <div className="project-cards-container">
                 <Card projectHeader={"Shema"} projectDescription={"Full-stack Ecommerce application"} projectStack={projectStackIcons.shema} previewSite={"https://timely-lokum-191a6b.netlify.app/"} sourceSite={"https://github.com/Bereky/mern-ecommerce"}/>
+                <Card projectHeader={"Dash Donation"} projectDescription={"Public donation for a charity organization"} projectStack={projectStackIcons.dashDonation} previewSite={"https://dash-donation.vercel.app/"} sourceSite={"https://github.com/Bereky/dash_donation"}/>
                 <Card projectHeader={"Decentral"} projectDescription={"Blockchain education archive"} projectStack={projectStackIcons.decentral} previewSite={"https://decentral-gray.vercel.app/"} sourceSite={"https://github.com/Bereky/easy_UIs"}/>
                 <Card projectHeader={"Github Find"} projectDescription={"Github profile search engine"} projectStack={projectStackIcons.githubFind} previewSite={"https://eclectic-hamster-b6841d.netlify.app"} sourceSite={"https://github.com/Bereky/Github-find"}/>
                 <Card projectHeader={"Chapa Node"} projectDescription={"Payment gateway implementation boilerplate"} projectStack={projectStackIcons.chapa} previewSite={false} sourceSite={"https://github.com/Bereky/chapa-payment-express"}/>
