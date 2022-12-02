@@ -12,7 +12,7 @@ const Project = () => {
             
             {
                 stackAlt: "Express",
-                stackIcon: "https://user-images.githubusercontent.com/11978772/40430986-a0eb7b92-5e63-11e8-80eb-43fe07f664a6.png"
+                stackIcon: "https://tw-strapi.s3.amazonaws.com/expressjs_ar21_b4dd392c7c.svg"
             },
             {
                 stackAlt: "NodeJS",
@@ -66,7 +66,7 @@ const Project = () => {
             },
             {
                 stackAlt: "Express",
-                stackIcon: "https://user-images.githubusercontent.com/11978772/40430986-a0eb7b92-5e63-11e8-80eb-43fe07f664a6.png"
+                stackIcon: "https://tw-strapi.s3.amazonaws.com/expressjs_ar21_b4dd392c7c.svg"
             }
 
             
@@ -100,7 +100,7 @@ const Project = () => {
             },
             {
                 stackAlt: "Bootstrap",
-                stackIcon: "https://raw.githubusercontent.com/themedotid/bootstrap-icon/HEAD/docs/bootstrap-icon-css.png"
+                stackIcon: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
             }
         ],
     }
