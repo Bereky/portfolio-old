@@ -5,7 +5,7 @@ import Banner from '../Common/Banner';
 const Skill = () => {
 
         const backEndSkills =[
-            {name: "Express", icon: "https://user-images.githubusercontent.com/11978772/40430986-a0eb7b92-5e63-11e8-80eb-43fe07f664a6.png"},
+            {name: "Express", icon: "https://tw-strapi.s3.amazonaws.com/expressjs_ar21_b4dd392c7c.svg"},
             {name: "NodeJs", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968322.png"},
             {name: "MongoDB", icon: "https://www.svgrepo.com/show/331488/mongodb.svg"},
             {name: "PHP", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968332.png"},
@@ -14,8 +14,10 @@ const Skill = () => {
 
         const frontEndSkills = [
             {name: "HTML5", icon: "https://cdn-icons-png.flaticon.com/512/174/174854.png"},
+            {name: "CSS3", icon: "https://cdn-icons-png.flaticon.com/512/732/732190.png"},
             {name: "SASS", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968358.png"},
             {name: "JavaScipt", icon: "https://cdn-icons-png.flaticon.com/512/1199/1199124.png"},
+            {name: "Tailwind", icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"},
             {name: "Material UI", icon: "https://v4.mui.com/static/logo.png"},
             {name: "jQuery", icon: "https://icon-library.com/images/jquery-icon/jquery-icon-21.jpg"},
             {name: "React", icon: "https://cdn-icons-png.flaticon.com/512/3334/3334886.png"}
